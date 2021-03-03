@@ -200,7 +200,7 @@ def get_library() -> CDLL:
     global LIB
     if LIB is None:
         LIB = _load_library("aries_askar")
-        _set_logger()
+        # _set_logger()
     return LIB
 
 
